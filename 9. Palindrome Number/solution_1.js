@@ -1,13 +1,6 @@
 /// https://leetcode.com/problems/palindrome-number/
-
-/**
- * @param {number} x
- * @return {boolean}
- * TC: O(n)
- * SC: O(n)
- */
-
 // Solution: reverse number using string
+
 function isPalindrome(x) {
   if (x < 0) {
     return false;
